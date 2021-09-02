@@ -1,16 +1,15 @@
-import React from 'react';
-import Header from "../../components/Header/Header";
+import Header from '../../components/Header/Header'
 
-const BaseLayout: React.FC = ({children}) => {
-    return (
-        <>
-            <Header/>
-            <div>
-                {children}
-            </div>
-        </>
+const BaseLayout: React.FC = ({children}: any) => {
+  return (
+    <>
+      <Header/>
+      <div>
+        {children}
+      </div>
+    </>
 
-    );
-};
+  )
+}
 
-export default BaseLayout;
+export default BaseLayout
